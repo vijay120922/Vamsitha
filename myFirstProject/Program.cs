@@ -22,14 +22,6 @@ namespace myFirstProject
                 b=c;
             }
             Console.WriteLine();
-            for (int i = 0; i < n; i++)
-            {
-                int c = a - b;
-                Console.Write("," + c);
-                a = b;
-                b = c;
-            }
-            Console.WriteLine();
 
         }
     }
